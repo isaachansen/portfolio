@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./Landing.scss";
 import Particle from "./Particle";
-// import image from "./portfolio.svg";
 import newPort from "./new_port.svg";
 import linkedin from "./linkedin.svg";
 import github from "./github.svg";
