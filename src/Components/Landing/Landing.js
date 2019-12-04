@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "./Landing.scss";
 import Particle from "./Particle";
-import image from "./portfolio.svg";
+// import image from "./portfolio.svg";
+import newPort from "./new_port.svg";
 import linkedin from "./linkedin.svg";
 import github from "./github.svg";
 import { NavLink } from "react-router-dom";
@@ -13,17 +14,17 @@ export default class Landing extends Component {
         <Particle />
         <div className="item-background">
           <div className="main-container">
-            <img className="image" src={image} alt="self-logo" />
+            <img className="image" src={newPort} alt="self-logo" />
             <div className="h1">ISAAC HANSEN</div>
             <div className="h3">FULL-STACK WEB DEVELOPER</div>
             <div className="button-container">
-              <button>
+              <button className="button">
                 <a href="https://drive.google.com/file/d/133ATawzcPZnshm_NE5ReGBxHikWLbAJb/view?usp=sharing">
                   RESUME
                 </a>
               </button>
               <NavLink to="/projects">
-                <button>PROJECTS</button>
+                <button className="button">PROJECTS</button>
               </NavLink>
             </div>
             <div className="contact">

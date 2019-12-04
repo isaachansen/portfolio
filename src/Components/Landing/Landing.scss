@@ -18,7 +18,7 @@
 }
 
 a {
-    color: inherit;
+    color: #333;
     text-decoration: none;
     &:visited { text-decoration: none; color:inherit; }
     &:hover { text-decoration: none; color:inherit; }
@@ -26,7 +26,7 @@ a {
 }
 
 
-button {
+.button {
     padding: 6px 20px;
     margin: 10px;
     background: white;
@@ -40,20 +40,24 @@ button {
 
     &:hover {
         cursor: pointer;
+        color: white;
+        background-color: black;
     }
 }
 
 .h1 {
-    font-weight: 700;
+    font-family: quasimoda,sans-serif;
+    font-weight: 800;
+    font-style: normal;
     font-size: 80px;
-    font-family: 'Biryani', sans-serif;
 }
 
 .h3 {
-    font-weight: 200;
+    font-family: quasimoda,sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 30px;
-    margin-bottom: 23px;
-    font-family: 'Biryani', sans-serif;
+    margin-bottom: 15px;
 }
 
 .image {
@@ -61,13 +65,8 @@ button {
     height: 500px;
 }
 
-// .main-container {
-//     margin-bottom: 100px;
-// }
-
 .contact-img {
     position: relative;
-    // top: 130px;
 }
 
 .link-img {

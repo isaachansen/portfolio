@@ -4,6 +4,10 @@
     position: absolute;
     left: 30px;
     top: 10px;
+
+    &:hover {
+        color: white;
+    }
 }
 
 .projects-background{
@@ -17,26 +21,115 @@
 
 .project-grid {
     width: 1000px;
-    height: 740px;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr
 }
 
+.project-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1294CC;
+    margin: 10px;
+    box-shadow: 14px -3px 148px -19px rgba(0,0,0,0.11);
+    border: 4px solid black;
+}
+.project-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1294CC;
+    margin: 10px;
+    box-shadow: 14px -3px 148px -19px rgba(0,0,0,0.11);
+    border: 4px solid black;
+}
+.project-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1294CC;
+    margin: 10px;
+    box-shadow: 14px -3px 148px -19px rgba(0,0,0,0.11);
+    border: 4px solid black;
+}
+
 .img-loc {
     width: 300px;
-    height: 220px;
-    background-color: black;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .qndp-img {
+        width: 280px;
+        height: auto;
+    }
+
+    .sneaks-img {
+        width: 280px;
+        height: auto;
+    }
+
+    &:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+
 }
 
 .paragraph {
     width: 300px;
-    height: 400px;
-    background-color: gray;
+    height: 300px;
     margin-top: 20px;
 }
 
 .pro-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 300px;
     height: 100px;
-    background-color: white;
+    margin-bottom: 10px;
+}
+
+.proj-btn {
+    padding: 8px 20px;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 10px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-family: usual,sans-serif;
+    font-weight: 800;
+    font-style: normal; 
+    font-size: 15px;
+    outline: none;
+
+    &:hover {
+        cursor: pointer;
+        color: white;
+        background-color: black;
+    }
+}
+
+.proj-title {
+    font-family: quasimoda,sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.proj-text {
+    font-family: quasimoda,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    margin: 20px;
 }

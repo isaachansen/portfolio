@@ -15,7 +15,7 @@ export default class Particle extends Component {
                             }
                         },
                         "color": {
-                            "value": "#333"
+                            "value": "#000000"
                         },
                         "shape": {
                             "type": "circle",
